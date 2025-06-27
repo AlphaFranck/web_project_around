@@ -1,13 +1,14 @@
 # Tripleten web_project_around
- 
+
 **"Around The U.S." — edición interactiva con ventanas emergentes**
 
 ## 🛠 Tecnologías utilizadas
-- HTML5 semántico  
-- CSS3  
+
+- HTML5 semántico
+- CSS3
 - Flexbox
-- Grid  
-- JavaScript (DOM, eventos)  
+- Grid
+- JavaScript (DOM, eventos)
 - Estructura modular de CSS (por bloques)
 
 ## ⚙️ Características
@@ -32,7 +33,7 @@ Introducir y aplicar los fundamentos de **JavaScript en el navegador**, aprendie
 
 ## 🌐 Proyecto publicado
 
-**[Ver sitio web en GitHub Pages](#https://alphafranck.github.io/web_project_around/)**
+**[Ver sitio web en GitHub Pages](https://alphafranck.github.io/web_project_around/)**
 
 ## 📝 Nota
 
