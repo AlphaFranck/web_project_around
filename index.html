@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Francisco Landa Marquez" />
+    <meta name="keywords" content="photos, like, profile, add, social" />
+    <meta
+      name="description"
+      content="Learning how to use javascript to improve a website."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <title>Alrededor de los EE.UU.</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="title">
+        <img
+          src="./images/title__logo.png"
+          alt="Logo de la pagina"
+          class="title__logo"
+        />
+      </header>
+      <main class="content">
+        <section class="profile">
+          <img
+            src="./images/photo__profile.jpg"
+            alt="Foto de perfil"
+            class="profile__photo"
+          />
+          <div class="profile__info">
+            <div class="profile__name-row">
+              <h3 class="profile__name">Jacques Cousteau</h3>
+              <button class="profile__edit-button" type="button">
+                <img
+                  src="./images/icons/Edit Button.svg"
+                  alt="ícono de lápiz"
+                  class="profile__edit-button-icon"
+                />
+              </button>
+            </div>
+            <p class="profile__rol">Explorador</p>
+          </div>
+          <button class="profile__add-button">
+            <img
+              src="./images/icons/Add Button+.svg"
+              alt="ícono de más"
+              class="profile__add-button-icon"
+            />
+          </button>
+        </section>
+        <section class="photos">
+          <div class="photos__container">
+            <img
+              src="./images/valle de yosemite.jpg"
+              alt="foto agregada"
+              class="photo__grid"
+            />
+            <div class="photo__description">
+              <p class="photo__description-text">Valle de Yosemite</p>
+              <button class="photo__description-like">
+                <img
+                  src="./images/icons/Like Button.svg"
+                  alt="Boton de like"
+                  class="photo__description-like-icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="photos__container">
+            <img
+              src="./images/lago louise.jpg"
+              alt="foto agregada"
+              class="photo__grid"
+            />
+            <div class="photo__description">
+              <p class="photo__description-text">Lago Louise</p>
+              <button class="photo__description-like">
+                <img
+                  src="./images/icons/Like Button.svg"
+                  alt="Boton de like"
+                  class="photo__description-like-icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="photos__container">
+            <img
+              src="./images/montañas calvas.jpg"
+              alt="foto agregada"
+              class="photo__grid"
+            />
+            <div class="photo__description">
+              <p class="photo__description-text">Montañas calvas</p>
+              <button class="photo__description-like">
+                <img
+                  src="./images/icons/Like Button.svg"
+                  alt="Boton de like"
+                  class="photo__description-like-icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="photos__container">
+            <img
+              src="./images/latemar.jpg"
+              alt="foto agregada"
+              class="photo__grid"
+            />
+            <div class="photo__description">
+              <p class="photo__description-text">Latemar</p>
+              <button class="photo__description-like">
+                <img
+                  src="./images/icons/Like Button.svg"
+                  alt="Boton de like"
+                  class="photo__description-like-icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="photos__container">
+            <img
+              src="./images/vanois.jpg"
+              alt="foto agregada"
+              class="photo__grid"
+            />
+            <div class="photo__description">
+              <p class="photo__description-text">Vanois National...</p>
+              <button class="photo__description-like">
+                <img
+                  src="./images/icons/Like Button.svg"
+                  alt="Boton de like"
+                  class="photo__description-like-icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="photos__container">
+            <img
+              src="./images/lago di brales.jpg"
+              alt="foto agregada"
+              class="photo__grid"
+            />
+            <div class="photo__description">
+              <p class="photo__description-text">Lago di Braies</p>
+              <button class="photo__description-like">
+                <img
+                  src="./images/icons/Like Button.svg"
+                  alt="Boton de like"
+                  class="photo__description-like-icon"
+                />
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="copyright">© 2024 Around The U.S.</p>
+      </footer>
+      <div class="popup">
+        <div class="popup__container">
+          <button class="popup__close-button" type="button">
+            <img src="./images/icons/Close Icon.svg" alt="Boton de cerrar" class="popup__close-button-icon">
+          </button>
+          <div class="popup__form">
+            <h2 class="popup__title">Editar perfil</h2>
+            <form class="popup__info" name="edit-profile">
+              <input
+                type="text"
+                class="popup__info-text"
+                name="name"
+                placeholder="Nombre"
+                minlength="2"
+                maxlength="40"
+                required
+              />
+              <input
+                type="text"
+                class="popup__info-text"
+                name="about"
+                placeholder="Acerca de mi"
+                minlength="2"
+                maxlength="200"
+                required
+              />
+              <button class="popup__save-button" type="submit">Guardar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
