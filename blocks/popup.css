@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1280px;
   height: 100%;
-  position: fixed;
+  position: fixed ;
   top: 0;
   display:none;
   justify-content: center;
@@ -23,7 +23,7 @@
   border: none;
   padding: 0;
   width: auto;
-  position: absolute;
+  position:absolute;
   right: -10%;
   top: -12%;
 }
@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-.popup__form {
+.popup__form-container {
   background-color: #fff;
   color: black;
   padding: 36px;
@@ -52,12 +52,12 @@
   font-size: 24px;
 }
 
-.popup__info {
+.popup__form {
   display: flex;
   flex-direction: column;
 }
 
-.popup__info-text {
+.popup__form-text {
   color: #000;
   border: none;
   border-bottom: 1px solid #c4c4c4;

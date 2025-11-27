@@ -8,6 +8,7 @@
 }
 
 .photos__container {
+  position: relative;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -16,6 +17,12 @@
   width: 100%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+.photos__delete {
+  position: absolute;
+  top: 24px;
+  right: 16px;
 }
 
 .photos__description {
@@ -34,13 +41,15 @@
   overflow: hidden;
 }
 
-.photos__description-like {
+.photos__description-like,
+.photos__delete {
   background: none;
   border: none;
   padding: 0;
 }
 
-.photos__description-like:hover {
+.photos__description-like:hover,
+.photos__delete-icon:hover {
   opacity: 50%;
   cursor: pointer;
 }
@@ -55,7 +64,6 @@
   object-fit: cover;
   object-position: center;
   display: block;
-  
 }
 
 @media (max-width: 544px) {

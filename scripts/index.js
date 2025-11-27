@@ -1,3 +1,5 @@
+//codigo para el popup de editar perfil
+
 const btnEditar = document.querySelector(".profile__edit-button-icon");
 const btnCerrar = document.querySelector(".popup__close-button");
 const popup = document.querySelector(".popup");
@@ -7,7 +9,7 @@ const profileRol = document.querySelector(".profile__rol");
 const inputName = document.querySelector('input[name="name"]');
 const inputAbout = document.querySelector('input[name="about"]');
 
-const formElement = document.querySelector(".popup__info");
+const formElement = document.querySelector(".popup__form");
 const saveButton = document.querySelector(".popup__save-button");
 
 btnEditar.addEventListener("click", function () {
@@ -44,6 +46,12 @@ function toggleSaveButtonState() {
 
 inputName.addEventListener("input", toggleSaveButtonState);
 inputAbout.addEventListener("input", toggleSaveButtonState);
+
+//codigo para el popup de agregar tarjeta
+
+
+
+//codigo para agregar 6 tarjetas iniciales
 
 const initialCards = [
   {
